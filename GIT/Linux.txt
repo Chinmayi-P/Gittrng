@@ -1,0 +1,37 @@
+1)mkdir test 
+
+
+2)i)cat >employeelist
+Employee is friend
+Employee is present
+
+ii) cat >skillset
+Employee known Linux
+Employee know C++
+
+3)mkdir Test2
+ln -s skillset file1
+ln skillset file2
+
+rm skillset
+cat file1-error
+cat file2-will display if content present
+
+4.
+  chmod g+rw file1
+5. 
+  chmod g+w file1
+6.
+  chmod 0+w file1
+
+7.
+  chmod 0+w file1
+8.
+  chgrp user3 employeelist
+
+9.
+  chown user5 file
+
+10. 
+  who| wc-l
+
