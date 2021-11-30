@@ -1,0 +1,14 @@
+1)grep "A"file
+
+2)grep "^[The]"file
+
+3)grep ".$"
+
+4)grep "-[abc]" file
+
+5)grep"[de*f] file
+
+6)
+
+7)
+
