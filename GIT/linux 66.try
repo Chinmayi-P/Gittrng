@@ -1,0 +1,6 @@
+tr A-z a-z < file1
+tr -d "[0-9]*" < file
+tr -d " " < file
+ls -l >file1 | tr -s " " file1
+tr -d " " < file1| tr -d "[0-9]*" | wc -m
+grep -o[aeiouAEIOU] file | wc -l
