@@ -1,0 +1,10 @@
+1)ls-l/>file1
+
+2)sort -d| sort-r
+
+3)ls -i|sort -n
+
+4)ls -l file|sort -dfile|sort -rfile
+
+5)ls-l file1|sort -n[-o sortedfile]file1
+
